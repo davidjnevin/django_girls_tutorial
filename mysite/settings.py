@@ -1,8 +1,6 @@
 import os
 from pathlib import Path
 
-from decouple import Csv, config
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -11,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY", default=config("SECRET"))
+SECRET_KEY = "jef3)1(e&xj7w9l_4#5^d3vp5vb12+d4tmavvn)bi3jy7+pa6c"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
